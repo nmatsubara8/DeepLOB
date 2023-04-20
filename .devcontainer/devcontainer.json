@@ -1,0 +1,20 @@
+{
+  "name": "Existing Dockerfile",
+  "context": "..",
+  "dockerFile": "./Dockerfile",
+  "workspaceFolder": "/tf",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "/usr/local/bin/pylint"
+  },
+  "appPort": [
+    9000
+  ],
+  "remoteUser": "user",
+  "extensions": [
+    "ms-python.python"
+  ]
+}
